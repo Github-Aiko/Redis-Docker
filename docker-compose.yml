@@ -10,4 +10,4 @@ services:
       - ./redis/conf/redis.conf:/usr/local/etc/redis/redis.conf
     command: redis-server /usr/local/etc/redis/redis.conf --save 60 1
     ports:
-      - 6379:6379
+      - 1011:1011
